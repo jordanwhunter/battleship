@@ -82,4 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
       ]
     }
   ];
+
+  // Draw computer's ships in random locations
+  const generateCompShips = () => {
+    let randomDirection = Math.floor(Math.random() * ships.directions.length);
+    let current = ship.directions[randomDirection];
+    if (randomDirection === 0) direction = 1;
+    if (randomDirection === 1) direction = 10;
+    let randomStart = Math.floor(Math.random() * computerSquares.length - (ship.directions[0].length * direction));
+  };
 });
