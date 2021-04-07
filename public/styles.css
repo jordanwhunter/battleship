@@ -41,7 +41,39 @@
 .destroyer-container {
   width: 80px;
   height: 40px;
-  background-color: black;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+}
+
+.submarine-container {
+  width: 120px;
+  height: 40px;
+  background-color: gainsboro;
+  margin: 10px;
+  display: flex;
+}
+
+.cruiser-container {
+  width: 120px;
+  height: 40px;
+  background-color: #686868;
+  margin: 10px;
+  display: flex;
+}
+
+.battleship-container {
+  width: 160px;
+  height: 40px;
+  background-color: gray;
+  margin: 10px;
+  display: flex;
+}
+
+.carrier-container {
+  width: 200px;
+  height: 40px;
+  background-color: #404040;
   margin: 10px;
   display: flex;
 }
