@@ -11,9 +11,10 @@
   margin: 20px;
 }
 
-.grid div {
+.grid>div {
   width: 40px;
   height: 40px;
+  background-color: green;
 }
 
 .grid-computer {
@@ -23,4 +24,11 @@
   flex-wrap: wrap;
   background-color: red;
   margin: 20px;
+}
+
+.grid-display {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  background-color: yellow;
 }
